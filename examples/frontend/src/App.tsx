@@ -22,34 +22,30 @@ function LandingPage() {
       <Card>
         <Flex direction="column" gap="2" align="center" style={{ height: '100%' }}>
           <div style={{ textAlign: 'center' }}>
-            <h2>Allowlist Example</h2>
+            <h2>Contoh Akses Daftar Izin (Allowlist)</h2>
             <p>
-              Shows how a creator can define an allowlist based access. The creator first creates an
-              allowlist and can add or remove users in the list. The creator can then associate
-              encrypted files to the allowlist. Only users in the allowlist have access to decrypt
-              the files.
+              Demonstrasi bagaimana seorang kreator dapat mengatur akses berdasarkan daftar izin.
+              Kreator dapat membuat daftar yang berisi pengguna yang diizinkan, lalu mengaitkan file terenkripsi dengan daftar tersebut.
+              Hanya pengguna yang tercantum dalam daftar izin yang dapat mendekripsi dan mengakses file.
             </p>
           </div>
           <Link to="/allowlist-example">
-            <Button size="3">Try it</Button>
+            <Button size="3">Lihat Contoh</Button>
           </Link>
         </Flex>
       </Card>
       <Card>
         <Flex direction="column" gap="2" align="center" style={{ height: '100%' }}>
           <div style={{ textAlign: 'center' }}>
-            <h2>Subscription Example</h2>
+            <h2>Contoh Akses Langganan</h2>
             <p>
-              Shows how a creator can define a subscription based access to its published files. The
-              creator defines subcription fee and how long a subscription is valid for. The creator
-              can then associate encrypted files to the service. Only users who have purchased a
-              subscription (NFT) have access to decrypt the files, along with the condition that the
-              subscription must not have expired (i.e. the subscription creation timestamp plus the
-              TTL is smaller than the current clock time).
+              Demonstrasi bagaimana seorang kreator dapat menetapkan akses berbasis langganan.
+              Kreator menentukan biaya dan durasi langganan, lalu mengaitkan file terenkripsi dengan layanan tersebut.
+              Hanya pengguna yang memiliki NFT langganan aktif yang dapat mengakses dan mendekripsi file yang dibagikan.
             </p>
           </div>
           <Link to="/subscription-example">
-            <Button size="3">Try it</Button>
+            <Button size="3">Lihat Contoh</Button>
           </Link>
         </Flex>
       </Card>
