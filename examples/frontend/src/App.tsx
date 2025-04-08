@@ -30,7 +30,7 @@ function LandingPage() {
             </p>
           </div>
           <Link to="/allowlist-example">
-            <Button size="3">Lihat Contoh</Button>
+            <Button size="3">Coba Sekarang</Button>
           </Link>
         </Flex>
       </Card>
@@ -45,7 +45,7 @@ function LandingPage() {
             </p>
           </div>
           <Link to="/subscription-example">
-            <Button size="3">Lihat Contoh</Button>
+            <Button size="3">Coba Sekarang</Button>
           </Link>
         </Flex>
       </Card>
