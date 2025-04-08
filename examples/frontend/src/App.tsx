@@ -22,7 +22,7 @@ function LandingPage() {
       <Card>
         <Flex direction="column" gap="2" align="center" style={{ height: '100%' }}>
           <div style={{ textAlign: 'center' }}>
-            <h2>Contoh Akses Daftar Izin (Allowlist)</h2>
+            <h2>Daftar Izin (Allowlist)</h2>
             <p>
               Demonstrasi bagaimana seorang kreator dapat mengatur akses berdasarkan daftar izin.
               Kreator dapat membuat daftar yang berisi pengguna yang diizinkan, lalu mengaitkan file terenkripsi dengan daftar tersebut.
@@ -37,7 +37,7 @@ function LandingPage() {
       <Card>
         <Flex direction="column" gap="2" align="center" style={{ height: '100%' }}>
           <div style={{ textAlign: 'center' }}>
-            <h2>Contoh Akses Langganan</h2>
+            <h2>Akses Langganan</h2>
             <p>
               Demonstrasi bagaimana seorang kreator dapat menetapkan akses berbasis langganan.
               Kreator menentukan biaya dan durasi langganan, lalu mengaitkan file terenkripsi dengan layanan tersebut.
@@ -60,7 +60,7 @@ function App() {
   return (
     <Container>
       <Flex position="sticky" px="4" py="2" justify="between">
-        <h1 className="text-4xl font-bold m-4 mb-8">Seal Example Apps</h1>
+        <h1 className="text-4xl font-bold m-4 mb-8">Seal Sui Testnet</h1>
         {/* <p>TODO: add seal logo</p> */}
         <Box>
           <ConnectButton />
