@@ -66,24 +66,17 @@ function App() {
           <ConnectButton />
         </Box>
       </Flex>
-      <Card style={{ marginBottom: '2rem' }}>
-        <p>
-          1. Code is available{' '}
-          <a href="https://github.com/MystenLabs/seal/tree/main/examples">here</a>.
-        </p>
-        <p>
-          2. These examples are for Testnet only. Make sure you wallet is set to Testnet and has
-          some balance (can request from <a href="https://faucet.sui.io/">faucet.sui.io</a>).
-        </p>
-        <p>
-          3. Blobs are only stored on Walrus Testnet for 1 epoch by default, older files cannot be
-          retrieved even if you have access.
-        </p>
-        <p>
-          4. Currently only image files are supported, and the UI is minimal, designed for demo
-          purposes only!
-        </p>
-      </Card>
+<Card style={{ marginBottom: '2rem' }}>
+  <p>
+    1. Hanya berlaku untuk jaringan Testnet. Pastikan dompet Anda terhubung ke jaringan Sui Testnet dan memiliki saldo (Anda bisa meminta token dari <a href="https://faucet.sui.io/">faucet.sui.io</a>).
+  </p>
+  <p>
+    3. File hanya disimpan di jaringan Walrus Testnet selama 1 epoch secara default. Setelah itu, file tidak dapat diakses lagi meskipun Anda memiliki hak akses.
+  </p>
+  <p>
+    4. Saat ini hanya file gambar yang didukung. Antarmuka ini dirancang sederhana dan hanya untuk tujuan demonstrasi!
+  </p>
+</Card>
       {currentAccount ? (
         <BrowserRouter>
           <Routes>
